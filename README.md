@@ -31,20 +31,10 @@ GinフレームワークとGORMを使用したシンプルなTodo管理REST API�
 
 ```bash
 git clone https://github.com/yourusername/todo-crud-api.git
-cd todo-crud-api
+cd dodo-go-backend
 ```
 
-### 2. 依存関係のインストール
-
-```bash
-go mod init todo-crud-api
-go get github.com/gin-gonic/gin
-go get github.com/gin-contrib/cors
-go get gorm.io/gorm
-go get gorm.io/driver/sqlite
-```
-
-### 3. アプリケーションの起動
+### 2. アプリケーションの起動
 
 ```bash
 go run main.go
